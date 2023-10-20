@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T16:14:26.744Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.6" etag="lKXIduOCPGzHyhKFbSv1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T16:22:33.048Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="nYNVvH9cwX4Y2xsrqsIG" version="22.0.6" type="github">
   <diagram name="Page-1" id="oEtd1FhqyjACWKv5zHhB">
-    <mxGraphModel>
+    <mxGraphModel dx="1231" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OX0vj4aVakINixEnNEeP-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.recovery_plan;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="65.7" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-2" value="明文数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="329.5" as="sourcePoint" />
+            <mxPoint x="480" y="329.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.tenant_key;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="25.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-5" value="密钥 KEY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="146" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-6" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.file_key;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.recovery_plan;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="65.7" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="324.5" as="sourcePoint" />
+            <mxPoint x="256" y="324.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="196" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.tenant_key;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="25.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-10" value="密钥 KEY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.75" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-11" value="&lt;font color=&quot;#ff3333&quot;&gt;加密&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-12" value="&lt;font color=&quot;#00ff80&quot;&gt;解密&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.75" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-13" value="明文数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.85" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OX0vj4aVakINixEnNEeP-14" value="加密文数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
