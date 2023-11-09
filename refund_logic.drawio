@@ -1,9 +1,150 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T08:18:04.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.0" etag="o2L5EVtqQZ42kBedCawZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T08:40:11.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YbQbqyr122VD5jqCl8n4" version="22.1.0" type="github">
   <diagram name="第 1 页" id="uCTap5yYtHm1DO6tISXk">
-    <mxGraphModel>
+    <mxGraphModel dx="1231" dy="855" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lX7L7t9EKd342vde2OTf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-1" target="lX7L7t9EKd342vde2OTf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-1" target="lX7L7t9EKd342vde2OTf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-1" target="lX7L7t9EKd342vde2OTf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-1" value="generate refund amount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-2" target="lX7L7t9EKd342vde2OTf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-2" value="store currency = USD &amp;amp;&amp;amp; customer currency != USD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-3" target="lX7L7t9EKd342vde2OTf-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="340" />
+              <mxPoint x="110" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-3" value="store currency = USD &amp;amp;&amp;amp; customer currency = USD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-4" target="lX7L7t9EKd342vde2OTf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-4" value="store currency != USD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-10" target="lX7L7t9EKd342vde2OTf-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-10" value="是否设置了退款金额" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-11" value="refund amount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-13" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="488" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-14" value="返回商家设置的 USD 金额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-10" target="lX7L7t9EKd342vde2OTf-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="695" />
+              <mxPoint x="380" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-16" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="488" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-17" value="返回买家想要&lt;br&gt;理赔的 USD 金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-18" target="lX7L7t9EKd342vde2OTf-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-18" target="lX7L7t9EKd342vde2OTf-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="400" as="sourcePoint" />
+            <mxPoint x="490" y="505" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="400" />
+              <mxPoint x="470" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-18" value="是否设置了退款金额" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-20" value="&lt;font color=&quot;#3399ff&quot;&gt;rate = presentmentPrice / unitPrice&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff3399&quot;&gt;amount = amount * rate&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-22" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-24" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="438" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-25" value="amount = 设置金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="478" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-28" target="lX7L7t9EKd342vde2OTf-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-28" target="lX7L7t9EKd342vde2OTf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-28" value="是否设置了退款金额" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-30" target="lX7L7t9EKd342vde2OTf-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-30" value="&lt;font color=&quot;#00cccc&quot;&gt;amont = amount / &lt;br&gt;BuyerToUSDRate&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="515" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-32" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="444" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lX7L7t9EKd342vde2OTf-33" target="lX7L7t9EKd342vde2OTf-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-33" value="根据买家想要理赔的商品然后计算 PresentmentPrice的总金额" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="515" width="103" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-35" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="811" y="434" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lX7L7t9EKd342vde2OTf-36" value="amount = 设置金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="529" y="476" width="120" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
