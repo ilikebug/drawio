@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T05:56:57.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="dhkHLZ2sKUm8FTGalD5S" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T06:01:04.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-hsNfo9pVtSj-lKAvTFF" version="22.1.16" type="github">
   <diagram name="第 1 页" id="f4X4v99AnN1mgnYXmtNU">
-    <mxGraphModel>
+    <mxGraphModel dx="1207" dy="855" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wBaPvA_j8u-F3IxSE8TY-1" target="wBaPvA_j8u-F3IxSE8TY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;buyer currency&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="69" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wBaPvA_j8u-F3IxSE8TY-2" target="wBaPvA_j8u-F3IxSE8TY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;store currency&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="258" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;USD&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="447" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="187" y="236" width="20" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="415" y="236" width="20" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;shopify platform&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="284" width="121" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="wBaPvA_j8u-F3IxSE8TY-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;protection system&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="361" y="286" width="128" height="29" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
